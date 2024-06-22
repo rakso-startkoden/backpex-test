@@ -10,7 +10,7 @@ module.exports = {
     "./js/**/*.js",
     "../lib/hello_world_web.ex",
     "../lib/hello_world_web/**/*.*ex",
-    'deps/backpex/**/*.*ex'
+    '../deps/backpex/**/*.*ex'
   ],
   theme: {
     extend: {
@@ -20,8 +20,8 @@ module.exports = {
     },
   },
   plugins: [
-    //require('daisyui'),
-    require("@tailwindcss/forms"),
+    require('daisyui'),
+    // require("@tailwindcss/forms"),
     // Allows prefixing tailwind classes with LiveView classes to add rules
     // only when LiveView classes are applied, for example:
     //
